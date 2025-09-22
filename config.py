@@ -1289,7 +1289,6 @@ EMOTION_EXAMPLES = {
             "I'm so sorry for disappointing you.",
             "I wish I could make it better."
         ],
-        # New emotions added below, each with 50+ examples
 
         "resentment": [
             "I can't let go of what happened.",
@@ -1703,7 +1702,7 @@ EMOTION_EXAMPLES = {
     }
 
 PATTERNS_OF_INTENT = {
-# 200+ intent topics, each with 200+ example headings (no responses, just headings)
+
 "greeting": [
     "Say hello",
     "Greet the user",
@@ -1756,7 +1755,7 @@ PATTERNS_OF_INTENT = {
     "Ask if user wants to talk",
     "Say user is always welcome",
     "Express enthusiasm for conversation",
-    # ... (add up to 200+ headings)
+   
 ],
 "goodbye": [
     "Say goodbye",
@@ -1810,7 +1809,6 @@ PATTERNS_OF_INTENT = {
     "Say hope user stays grateful",
     "Say hope user stays mindful",
     "Say hope user stays balanced",
-    # ... (add up to 200+ headings)
 ],
 "ask_weather": [
     "Ask about today's weather",
@@ -1864,7 +1862,6 @@ PATTERNS_OF_INTENT = {
     "Ask about weather for exam",
     "Ask about weather for test",
     "Ask about weather for presentation",
-    # ... (add up to 200+ headings)
 ],
 "book_flight": [
     "Book a flight",
@@ -1917,7 +1914,6 @@ PATTERNS_OF_INTENT = {
     "Book a flight for seminar",
     "Book a flight for workshop",
     "Book a flight for exhibition",
-    # ... (add up to 200+ headings)
 ],
 "order_food": [
     "Order food",
@@ -1972,7 +1968,6 @@ PATTERNS_OF_INTENT = {
     "Order daily special",
     "Order healthy options",
     "Order low-calorie food",
-    # ... (add up to 200+ headings)
 ],
 "set_reminder": [
     "Set a reminder",
@@ -2025,7 +2020,6 @@ PATTERNS_OF_INTENT = {
     "Remind me to reply to emails",
     "Remind me to update resume",
     "Remind me to prepare presentation",
-    # ... (add up to 200+ headings)
 ],
 "play_music": [
     "Play music",
@@ -2078,7 +2072,6 @@ PATTERNS_OF_INTENT = {
     "Play song by genre",
     "Play song by year",
     "Play song by language",
-    # ... (add up to 200+ headings)
 ],
 "get_news": [
     "Get latest news",
@@ -2131,7 +2124,6 @@ PATTERNS_OF_INTENT = {
     "Get sports scores",
     "Get sports highlights",
     "Get sports schedules",
-    # ... (add up to 200+ headings)
 ],
 "ask_joke": [
     "Tell a joke",
@@ -2256,7 +2248,7 @@ PATTERNS_OF_INTENT = {
     "Tell a Christmas riddle",
     "Tell a New Year riddle"
 ],
-    # 20+ new sectors with 100+ example headings each (headings only, not previously listed)
+
     "sustainability_and_environment": [
         "Climate Change",
         "Renewable Energy",
@@ -3859,9 +3851,8 @@ PATTERNS_OF_INTENT = {
 
 }
 
-# noinspection PyRedeclaration
 TOPIC_EXAMPLES_CSV = {
-    # 200+ topics across different sectors
+
     "technology": [
         "Artificial Intelligence",
         "Machine Learning",
@@ -5319,8 +5310,6 @@ TOPIC_EXAMPLES_CSV = {
         "Laboratory Techniques"
     ],
 }
-
-# Reply templates
 REPLY_TEMPLATES = {
     'sharing_experience': [
         'That sounds like an incredible experience! What stood out to you the most about {key_phrase}?',
@@ -6319,7 +6308,6 @@ REPLY_TEMPLATES = {
         'Did {key_phrase} provide clear instructions?',
         'How well did {key_phrase} integrate with your existing tools?',
 
-        # Transportation Sector Feedback Prompts
         'How would you rate your overall experience with {key_phrase} transportation services?',
         'Did {key_phrase} make it easy to book or schedule your trip?',
         'How satisfied were you with the punctuality of {key_phrase}?',
@@ -6352,7 +6340,7 @@ REPLY_TEMPLATES = {
         'Did {key_phrase} offer helpful feedback or follow-up after your trip?',
     ],
 
-    # Education Sector Feedback Prompts
+
     "Education": [
         'How effective was {key_phrase} in helping you learn new concepts?',
         'Did {key_phrase} provide clear explanations?',
@@ -6417,7 +6405,6 @@ REPLY_TEMPLATES = {
         'How would you rate the overall experience with {key_phrase}?'
     ],
 
-    # Healthcare Sector Feedback Prompts
     "Healthcare": [
         'How would you rate the quality of care provided by {key_phrase}?',
         'Did {key_phrase} address your health concerns effectively?',
@@ -6481,7 +6468,6 @@ REPLY_TEMPLATES = {
         'Did {key_phrase} offer resources for healthy eating and exercise?'
     ],
 
-    # Finance Sector Feedback Prompts
     "Finance": [
         'How easy was it to open an account with {key_phrase}?',
         'Did {key_phrase} provide clear information about fees?',
@@ -6546,7 +6532,6 @@ REPLY_TEMPLATES = {
         'How easy was it to access customer support at {key_phrase}?'
     ],
 
-    # Retail Sector Feedback Prompts
     "Retail": [
         'How easy was it to find products at {key_phrase}?',
         'Did {key_phrase} offer a wide selection of items?',
@@ -6609,7 +6594,7 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your sustainable shopping goals?'
     ],
 
-    # Hospitality Sector Feedback Prompts
+
     "Hospitality": [
         'How would you rate your overall experience at {key_phrase}?',
         'Did {key_phrase} staff make you feel welcome?',
@@ -6672,7 +6657,7 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your relaxation needs?'
     ],
 
-    # Government Sector Feedback Prompts
+
     "Government": [
         'How easy was it to access services from {key_phrase}?',
         'Did {key_phrase} provide clear information about procedures?',
@@ -6735,7 +6720,6 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your language needs?'
     ],
 
-    # Manufacturing Sector Feedback Prompts
     "Manufacturing": [
         'How would you rate the quality of products from {key_phrase}?',
         'Did {key_phrase} meet your production requirements?',
@@ -6797,8 +6781,6 @@ REPLY_TEMPLATES = {
         'Did {key_phrase} offer helpful information about product upgrades?',
         'How well did {key_phrase} support your operational needs?'
     ],
-
-    # Energy Sector Feedback Prompts
     "Energy": [
         'How satisfied were you with the reliability of {key_phrase} services?',
         'Did {key_phrase} provide clear information about energy usage?',
@@ -6861,7 +6843,6 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your energy management needs?'
     ],
 
-    # Agriculture Sector Feedback Prompts
     "Agriculture": [
         'How satisfied were you with the quality of products from {key_phrase}?',
         'Did {key_phrase} provide clear information about farming practices?',
@@ -6924,7 +6905,6 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your food security goals?'
     ],
 
-    # Media & Entertainment Sector Feedback Prompts
     "Media & Entertainment": [
         'How satisfied were you with the content quality from {key_phrase}?',
         'Did {key_phrase} provide engaging and relevant programming?',
@@ -6986,8 +6966,6 @@ REPLY_TEMPLATES = {
         'Did {key_phrase} provide clear information about content guidelines?',
         'How well did {key_phrase} support your content creation needs?'
     ],
-
-    # Real Estate Sector Feedback Prompts
     "Real Estate": [
         'How easy was it to find properties with {key_phrase}?',
         'Did {key_phrase} provide clear information about listings?',
@@ -7050,7 +7028,6 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your property management needs?'
     ],
 
-    # Science & Research Sector Feedback Prompts
     "Science & Research": [
         'How satisfied were you with the quality of research from {key_phrase}?',
         'Did {key_phrase} provide clear information about research findings?',
@@ -7113,7 +7090,6 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your research impact goals?'
     ],
 
-    # Sports & Recreation Sector Feedback Prompts
     "Sports & Recreation": [
         'How satisfied were you with the quality of facilities at {key_phrase}?',
         'Did {key_phrase} provide clear information about schedules?',
@@ -7176,7 +7152,6 @@ REPLY_TEMPLATES = {
         'How well did {key_phrase} support your lifelong fitness needs?'
     ],
 
-    # Technology Sector Feedback Prompts
     "Technology": [
         'How satisfied were you with the performance of {key_phrase}?',
         'Did {key_phrase} provide clear documentation?',
